@@ -53,3 +53,9 @@ git clone -b main https://github.com/ophub/luci-app-amlogic.git package/luci-app
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Additional customizations ends -------------------------------
+
+# add luci-theme-argon & OpenAppFilter on 2026.09.06
+# luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+# OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
